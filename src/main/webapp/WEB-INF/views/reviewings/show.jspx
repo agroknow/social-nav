@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_agroknow_socnav_domain_Reviewing" object="${reviewing}" path="/reviewings" z="pl1Svd0kMDyan5d1eSnFsTm7MHU=">
+        <field:display date="true" dateTimePattern="${reviewing_updated_at_date_format}" field="updated_at" id="s_com_agroknow_socnav_domain_Reviewing_updated_at" object="${reviewing}" z="Wee1Lhgkh97P6SNPpV5Eh73fsEo="/>
+        <field:display field="sharing_level" id="s_com_agroknow_socnav_domain_Reviewing_sharing_level" object="${reviewing}" z="doMwwTom/tvr6BZF7dKL9uxYUK8="/>
+        <field:display field="session_id" id="s_com_agroknow_socnav_domain_Reviewing_session_id" object="${reviewing}" z="2UqQWMNVgcF+FEgH6h74Z1Q34rU="/>
+        <field:display field="domain" id="s_com_agroknow_socnav_domain_Reviewing_domain" object="${reviewing}" z="z4wGzxV9H471gFNTOf9LRIKHFYE="/>
+        <field:display field="ip_address" id="s_com_agroknow_socnav_domain_Reviewing_ip_address" object="${reviewing}" z="M4OwGdzkPjSvLAm/NT3RGzdVhGw="/>
+        <field:display field="review" id="s_com_agroknow_socnav_domain_Reviewing_review" object="${reviewing}" z="W5Tz5tzyRy2LiCud12GQOBxZzK4="/>
+        <field:display field="lang" id="s_com_agroknow_socnav_domain_Reviewing_lang" object="${reviewing}" z="pE1Y2NGEjtAATsZ34mUnYTXoz/M="/>
+        <field:display field="user" id="s_com_agroknow_socnav_domain_Reviewing_user" object="${reviewing}" z="ruSrMDEKsdrnHINZS53eBDLQ+vQ="/>
+        <field:display field="item" id="s_com_agroknow_socnav_domain_Reviewing_item" object="${reviewing}" z="fi7/yloK003hKLMH6RxbsxcCyD4="/>
+    </page:show>
+</div>

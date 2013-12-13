@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_agroknow_socnav_domain_User" items="${users}" z="mSU0u+YKNj5GMDuTtTqSdFW6fQY=">
+        <table:table data="${users}" id="l_com_agroknow_socnav_domain_User" path="/users" z="SPdo9fLWvlK52dRaE9l3IeaO5iw=">
+            <table:column id="c_com_agroknow_socnav_domain_User_metadata_uri" property="metadata_uri" z="n6PJFeM2mFLNqB9eG57hmgwSHIE="/>
+            <table:column id="c_com_agroknow_socnav_domain_User_remote_id" property="remote_id" z="z1bd1wEMNWiychyfUtxsrM/AuQk="/>
+        </table:table>
+    </page:list>
+</div>

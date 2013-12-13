@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_agroknow_socnav_domain_Recommendation" object="${recommendation}" path="/recommendations" z="B3UDc9vOu2kzAfg7JJ3G77Fsj48=">
+        <field:display field="item" id="s_com_agroknow_socnav_domain_Recommendation_item" object="${recommendation}" z="NhhhvrlNxyCq9s5JOtU0X2azle8="/>
+        <field:display field="user" id="s_com_agroknow_socnav_domain_Recommendation_user" object="${recommendation}" z="UP37iFNRdbPMe6v+Hljq4MK7MOM="/>
+        <field:display field="evaluation" id="s_com_agroknow_socnav_domain_Recommendation_evaluation" object="${recommendation}" z="PE1wEkujjDXYHSuwyU4DYfV7izo="/>
+    </page:show>
+</div>

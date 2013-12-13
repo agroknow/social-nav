@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:find finderName="ByRating" id="ff_com_agroknow_socnav_domain_Preference" path="/preferences" z="BDHvli3Y3vJVZL4LZMeYh9/jXNE=">
+        <field:select disableFormBinding="true" field="rating" id="f_com_agroknow_socnav_domain_Preference_rating" itemValue="id" items="${ratings}" path="/ratings" required="true" z="XLTsffVfwuXc4s3lbLwXeZI3FVQ="/>
+    </form:find>
+</div>

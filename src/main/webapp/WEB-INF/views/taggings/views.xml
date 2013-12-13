@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="taggings/list">
+        <put-attribute name="body" value="/WEB-INF/views/taggings/list.jspx"/>
+    </definition>
+<definition extends="default" name="taggings/show">
+        <put-attribute name="body" value="/WEB-INF/views/taggings/show.jspx"/>
+    </definition>
+<definition extends="default" name="taggings/create">
+        <put-attribute name="body" value="/WEB-INF/views/taggings/create.jspx"/>
+    </definition>
+<definition extends="default" name="taggings/update">
+        <put-attribute name="body" value="/WEB-INF/views/taggings/update.jspx"/>
+    </definition>
+<definition extends="default" name="taggings/findTaggingsByUserAndItem">
+        <put-attribute name="body" value="/WEB-INF/views/taggings/findTaggingsByUserAndItem.jspx"/>
+    </definition>
+<definition extends="default" name="taggings/findTaggingsByUser">
+        <put-attribute name="body" value="/WEB-INF/views/taggings/findTaggingsByUser.jspx"/>
+    </definition>
+<definition extends="default" name="taggings/findTaggingsByItem">
+        <put-attribute name="body" value="/WEB-INF/views/taggings/findTaggingsByItem.jspx"/>
+    </definition>
+<definition extends="default" name="taggings/findTaggingsByTags">
+        <put-attribute name="body" value="/WEB-INF/views/taggings/findTaggingsByTags.jspx"/>
+    </definition>
+</tiles-definitions>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_agroknow_socnav_domain_Rating" modelAttribute="rating" path="/ratings" versionField="Version" z="yLZ4T+lDe3z/ro3WARZW3cWJQT8=">
+        <field:datetime dateTimePattern="${rating_updated_at_date_format}" field="updated_at" id="c_com_agroknow_socnav_domain_Rating_updated_at" z="l6NgTYBU+VBU11gIGafo/5Tjqh4="/>
+        <field:select field="sharing_level" id="c_com_agroknow_socnav_domain_Rating_sharing_level" items="${sharingleveltypes}" path="sharingleveltypes" z="lzTqIx4c1ewv5nEzUD1q3FIoyd8="/>
+        <field:input field="session_id" id="c_com_agroknow_socnav_domain_Rating_session_id" z="aPwmjzc+1BHtZffMwDMNtS3LcCA="/>
+        <field:input field="domain" id="c_com_agroknow_socnav_domain_Rating_domain" z="RpWEQeeh3xVBiBvwKOd+NuRjMz0="/>
+        <field:input field="ip_address" id="c_com_agroknow_socnav_domain_Rating_ip_address" z="4wsktD8EvT5+1FDHUP624BV/yWQ="/>
+        <field:select field="user" id="c_com_agroknow_socnav_domain_Rating_user" itemValue="id" items="${users}" path="/users" required="true" z="4r4aVskiJIc9yQEDC7i+w5OPs4Q="/>
+        <field:select field="item" id="c_com_agroknow_socnav_domain_Rating_item" itemValue="id" items="${items}" path="/items" required="true" z="w5ZzaphzfQGV3Xt9yrZLrnm0XGE="/>
+        <field:simple field="preferences" id="c_com_agroknow_socnav_domain_Rating_preferences" messageCode="entity_reference_not_managed" messageCodeAttribute="Preference" z="vyUHQ/EW5XDnUDYzPoYoBK1AVNY="/>
+        <field:input field="preference_avg" id="c_com_agroknow_socnav_domain_Rating_preference_avg" z="L/19dzmqMp8+jUOsg241vQZ4nEM="/>
+        <field:input field="preference_dimensions" id="c_com_agroknow_socnav_domain_Rating_preference_dimensions" z="uw1R1kAiGbgmCho1zuPHvh3e7nA="/>
+    </form:update>
+</div>

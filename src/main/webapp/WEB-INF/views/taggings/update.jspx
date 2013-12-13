@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_agroknow_socnav_domain_Tagging" modelAttribute="tagging" path="/taggings" versionField="Version" z="rn7VXznA7SfMkU/ruED4BPm/A/8=">
+        <field:datetime dateTimePattern="${tagging_updated_at_date_format}" field="updated_at" id="c_com_agroknow_socnav_domain_Tagging_updated_at" z="K0jleeu0iIbs6+DCHMfoaOw5kn0="/>
+        <field:select field="sharing_level" id="c_com_agroknow_socnav_domain_Tagging_sharing_level" items="${sharingleveltypes}" path="sharingleveltypes" z="5iVAuo2p23Jr0nEDoCyzPfwjGC8="/>
+        <field:input field="session_id" id="c_com_agroknow_socnav_domain_Tagging_session_id" z="sczOH+FMb6YLcFqtPRZ4TZeZhlI="/>
+        <field:input field="domain" id="c_com_agroknow_socnav_domain_Tagging_domain" z="QzHaBv/rG0OG5YwiLluhyfK+kfg="/>
+        <field:input field="ip_address" id="c_com_agroknow_socnav_domain_Tagging_ip_address" z="P289vRnjr2f+OzR+Cyu62Rn4aoM="/>
+        <field:simple field="tags" id="c_com_agroknow_socnav_domain_Tagging_tags" messageCode="entity_reference_not_managed" messageCodeAttribute="Tag" z="Aft1FdNqjb7x6ApQc80UeTrGS+I="/>
+        <field:select field="user" id="c_com_agroknow_socnav_domain_Tagging_user" itemValue="id" items="${users}" path="/users" required="true" z="N6ENH0Neil6p6wsjSvOYwSVuK8Y="/>
+        <field:select field="item" id="c_com_agroknow_socnav_domain_Tagging_item" itemValue="id" items="${items}" path="/items" required="true" z="2bH9YN3sMy9euIrQOHTA4tQU1uM="/>
+    </form:update>
+</div>

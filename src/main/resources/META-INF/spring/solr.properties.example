@@ -1,0 +1,4 @@
+#Updated at Tue Jul 31 20:39:41 EEST 2012
+#Tue Jul 31 20:39:41 EEST 2012
+solr.serverUrl=http\://localhost\:8983/solr
+executor.poolSize=10

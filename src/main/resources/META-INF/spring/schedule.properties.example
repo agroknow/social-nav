@@ -1,0 +1,9 @@
+scheduler.poolSize=10
+recommenderJob.cronExpression=0 04 20 * * ?
+recommenderJob.serverUrl=http://62.217.125.104:8080/
+recommenderJob.fileName=/datasets/ratings.dat
+recommenderJob.regServiceUrl=http://agro.ipb.ac.rs/agcouchdb
+recommenderJob.outputServiceUrl=http://agro.ipb.ac.rs/agcouchdb/_design/recommends/_list/search/list?recommend.process_parameter_id=
+recommenderJob.username=Giannis Stoitsis
+recommenderJob.password=asd768dd
+recommenderJob.params=--howMany 5 --neighborhoodSize 5 --similarity euclidian recommend

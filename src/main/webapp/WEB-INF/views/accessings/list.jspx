@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_agroknow_socnav_domain_Accessing" items="${accessings}" z="l/Ussb85468bWY7eJmBWfeSCxAI=">
+        <table:table data="${accessings}" id="l_com_agroknow_socnav_domain_Accessing" path="/accessings" z="wwdM2Ii/Sie1c7VnKCxIErNboW0=">
+            <table:column id="c_com_agroknow_socnav_domain_Accessing_user" property="user" z="cf7Ugau6oLCkdwWoupi4FHeUbq8="/>
+            <table:column id="c_com_agroknow_socnav_domain_Accessing_item" property="item" z="g3plSyppcAQVtHE9t/E9mfbD3+w="/>
+            <table:column date="true" dateTimePattern="${accessing_updated_at_date_format}" id="c_com_agroknow_socnav_domain_Accessing_updated_at" property="updated_at" z="E8/LbJ8hdY5kElKFFemEaA92prA="/>
+            <table:column id="c_com_agroknow_socnav_domain_Accessing_sharing_level" property="sharing_level" z="WjqU5OIC+5rSnPbbbXotPdMfHGc="/>
+            <table:column id="c_com_agroknow_socnav_domain_Accessing_session_id" property="session_id" z="RRS7pw9pRVL/c3yiLSuEULVztwE="/>
+            <table:column id="c_com_agroknow_socnav_domain_Accessing_domain" property="domain" z="vGSPGQKKohE1L9ECUdUDj7s+GBk="/>
+        </table:table>
+    </page:list>
+</div>

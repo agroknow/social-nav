@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="items/list">
+        <put-attribute name="body" value="/WEB-INF/views/items/list.jspx"/>
+    </definition>
+<definition extends="default" name="items/show">
+        <put-attribute name="body" value="/WEB-INF/views/items/show.jspx"/>
+    </definition>
+<definition extends="default" name="items/create">
+        <put-attribute name="body" value="/WEB-INF/views/items/create.jspx"/>
+    </definition>
+<definition extends="default" name="items/update">
+        <put-attribute name="body" value="/WEB-INF/views/items/update.jspx"/>
+    </definition>
+<definition extends="default" name="items/findItemsByResource_uriEquals">
+        <put-attribute name="body" value="/WEB-INF/views/items/findItemsByResource_uriEquals.jspx"/>
+    </definition>
+<definition extends="default" name="items/findItemsByTaggings">
+        <put-attribute name="body" value="/WEB-INF/views/items/findItemsByTaggings.jspx"/>
+    </definition>
+<definition extends="default" name="items/findItemsByResource_idEquals">
+        <put-attribute name="body" value="/WEB-INF/views/items/findItemsByResource_idEquals.jspx"/>
+    </definition>
+</tiles-definitions>

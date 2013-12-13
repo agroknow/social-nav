@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_agroknow_socnav_domain_Reviewing" modelAttribute="reviewing" path="/reviewings" render="${empty dependencies}" z="+DDriUkgHB2eKtNJs7ssKqeoQFs=">
+        <field:datetime dateTimePattern="${reviewing_updated_at_date_format}" field="updated_at" id="c_com_agroknow_socnav_domain_Reviewing_updated_at" z="wgcfcJZWUXJ1kJ3pf7SzFX5XXuc="/>
+        <field:select field="sharing_level" id="c_com_agroknow_socnav_domain_Reviewing_sharing_level" items="${sharingleveltypes}" path="sharingleveltypes" z="NPMCzI+baZwGN8uxe5O/xezVzOE="/>
+        <field:input field="session_id" id="c_com_agroknow_socnav_domain_Reviewing_session_id" z="UtsbaB1bKRXqKwyRXcNZVvZB0ik="/>
+        <field:input field="domain" id="c_com_agroknow_socnav_domain_Reviewing_domain" z="4xkstUOnSLUlyytXY4YigX/0RjI="/>
+        <field:input field="ip_address" id="c_com_agroknow_socnav_domain_Reviewing_ip_address" z="LPTZObvxE7tgCSpPw2H1HW7HOQo="/>
+        <field:textarea field="review" id="c_com_agroknow_socnav_domain_Reviewing_review" required="true" z="YHinVmlSW7aVsap3QT9rbbr0xgU="/>
+        <field:select field="lang" id="c_com_agroknow_socnav_domain_Reviewing_lang" items="${languagetypes}" path="languagetypes" required="true" z="NAraS8y+cjYYRmMr4P6vziCivCA="/>
+        <field:select field="user" id="c_com_agroknow_socnav_domain_Reviewing_user" itemValue="id" items="${users}" path="/users" required="true" z="VcQ2Y6FOVcCwZx6bTPSK9OGBxao="/>
+        <field:select field="item" id="c_com_agroknow_socnav_domain_Reviewing_item" itemValue="id" items="${items}" path="/items" required="true" z="wGP0b9dQ6WHXS3N95A0qvNSiHMU="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_agroknow_socnav_domain_Reviewing" render="${not empty dependencies}" z="xQFe6tjODKd6Cd0qwAuD1OEy/MY="/>
+</div>

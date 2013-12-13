@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_agroknow_socnav_domain_User" object="${user}" path="/users" z="2AGctKBjkJc9eyBgd7ylK9JbT70=">
+        <field:display field="metadata_uri" id="s_com_agroknow_socnav_domain_User_metadata_uri" object="${user}" z="Cw/++11hDtyiXhyWZUGha+jfnQY="/>
+        <field:display field="remote_id" id="s_com_agroknow_socnav_domain_User_remote_id" object="${user}" z="mNOlJxCmyJJmLZA8WDYIKCtzPws="/>
+    </page:show>
+</div>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_agroknow_socnav_domain_Accessing" modelAttribute="accessing" path="/accessings" versionField="Version" z="xmNajQY3w39ZKnXiQYGBlnxb1Ck=">
+        <field:select field="user" id="c_com_agroknow_socnav_domain_Accessing_user" itemValue="id" items="${users}" path="/users" required="true" z="digjn8Rvkge+0HYueShAL2JPirU="/>
+        <field:select field="item" id="c_com_agroknow_socnav_domain_Accessing_item" itemValue="id" items="${items}" path="/items" required="true" z="00MhLc5PEbq3bv1RpkY/dHLUYlE="/>
+        <field:datetime dateTimePattern="${accessing_updated_at_date_format}" field="updated_at" id="c_com_agroknow_socnav_domain_Accessing_updated_at" z="5qGhIZTygJ1/qgy+OfPqmUYXUdU="/>
+        <field:select field="sharing_level" id="c_com_agroknow_socnav_domain_Accessing_sharing_level" items="${sharingleveltypes}" path="sharingleveltypes" z="3vAnq1szoaNe8lTHHAYzuNN6U6Y="/>
+        <field:input field="session_id" id="c_com_agroknow_socnav_domain_Accessing_session_id" z="cyA9ke+bhRfzz+xdkkykXKwVXIg="/>
+        <field:input field="domain" id="c_com_agroknow_socnav_domain_Accessing_domain" z="lXixYtIhpcAJAWokvDaeBQmwFKI="/>
+        <field:input field="ip_address" id="c_com_agroknow_socnav_domain_Accessing_ip_address" z="Yweg9OLkwoazu+xY5Q0iT5K8bBQ="/>
+    </form:update>
+</div>

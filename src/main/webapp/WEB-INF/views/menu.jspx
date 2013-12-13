@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:menu="urn:jsptagdir:/WEB-INF/tags/menu" id="menu" class="well sidebar-nav" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <menu:menu id="_menu" z="nZaf43BjUg1iM0v70HJVEsXDopc=">
+        <menu:category id="c_user" z="uoTSf/uIZ821ZppidzS9aO776yk=">
+            <menu:item id="i_user_new" messageCode="global_menu_new" url="/users?form" z="Zv1m8u2rG+JFKcvJ+AHVVK0ey24="/>
+            <menu:item id="i_user_list" messageCode="global_menu_list" url="/users?page=1&amp;size=${empty param.size ? 10 : param.size}" z="4MY4uybxa60Q1G2rlI5bOwg+sm0="/>
+            <menu:item id="fi_user_remote_idequals" messageCode="global_menu_find" url="/users?find=ByRemote_idEquals&amp;form" z="1zqErVV4p7/7SyJncMUl6GjU2B0="/>
+        </menu:category>
+        <menu:category id="c_item" z="jWO1pnucyLwI2bZuwfja4eCYsjU=">
+            <menu:item id="i_item_new" messageCode="global_menu_new" url="/items?form" z="I+/MpOYxZ47XKvsQW1PUi6uC060="/>
+            <menu:item id="i_item_list" messageCode="global_menu_list" url="/items?page=1&amp;size=${empty param.size ? 10 : param.size}" z="4RxBMvjr2gUD8qO0DTWmjd1SzS0="/>
+            <menu:item id="fi_item_resource_idequals" messageCode="global_menu_find" url="/items?find=ByResource_idEquals&amp;form" z="68zTKdPg1GccZPcUKyPyejghOYc="/>
+            <menu:item id="fi_item_resource_uriequals" messageCode="global_menu_find" url="/items?find=ByResource_uriEquals&amp;form" z="oW6ZkrMVK5DzFaKf6WtvFq6gjvo="/>
+            <menu:item id="fi_item_taggings" messageCode="global_menu_find" url="/items?find=ByTaggings&amp;form" z="1hKGoVP/F04/VhfEpvds6hVMc14="/>
+        </menu:category>
+        <menu:category id="c_accessing" z="WpQjIhWUsrDPX4/YJHPFEvWknCQ=">
+            <menu:item id="i_accessing_new" messageCode="global_menu_new" url="/accessings?form" z="lNQEPi5d8KLVafHjA9NoElbM9mc="/>
+            <menu:item id="i_accessing_list" messageCode="global_menu_list" url="/accessings?page=1&amp;size=${empty param.size ? 10 : param.size}" z="rXBWGiOW+MdmUlYkmUC+qK6ei4I="/>
+            <menu:item id="fi_accessing_item" messageCode="global_menu_find" url="/accessings?find=ByItem&amp;form" z="3T5zsG4MirM+UCfcQS67qo5vkuo="/>
+            <menu:item id="fi_accessing_user" messageCode="global_menu_find" url="/accessings?find=ByUser&amp;form" z="eVqYSsEOYANwmrmqHBm6J8W8yQc="/>
+            <menu:item id="fi_accessing_useranditem" messageCode="global_menu_find" url="/accessings?find=ByUserAndItem&amp;form" z="s8K3VZiCrrHlY/V5R/mjB/VKIGs="/>
+        </menu:category>
+        <menu:category id="c_rating" z="8LO+DXAkJtoJxUYUGGpugedTkDM=">
+            <menu:item id="i_rating_new" messageCode="global_menu_new" url="/ratings?form" z="ht0feyY5dGi+JY0iQWXTpv8hKjU="/>
+            <menu:item id="i_rating_list" messageCode="global_menu_list" url="/ratings?page=1&amp;size=${empty param.size ? 10 : param.size}" z="fjmucAEjjBFzZNPmqXPMYv/OwSw="/>
+            <menu:item id="fi_rating_item" messageCode="global_menu_find" url="/ratings?find=ByItem&amp;form" z="UeR35QqkUTt9CO0wTrzKqYIDfe8="/>
+            <menu:item id="fi_rating_user" messageCode="global_menu_find" url="/ratings?find=ByUser&amp;form" z="Jn+tvZWPNkNGPJTQAokIMeeUAf4="/>
+            <menu:item id="fi_rating_useranditem" messageCode="global_menu_find" url="/ratings?find=ByUserAndItem&amp;form" z="Ejyv+SZndJT1/BTuRDzVWgeSVEo="/>
+        </menu:category>
+        <menu:category id="c_reviewing" z="05hggEi1DwmHi/oQe76fC5QJ4hI=">
+            <menu:item id="i_reviewing_new" messageCode="global_menu_new" url="/reviewings?form" z="LZW2wOaAZgfc3mVbxbUAKxq1IXw="/>
+            <menu:item id="i_reviewing_list" messageCode="global_menu_list" url="/reviewings?page=1&amp;size=${empty param.size ? 10 : param.size}" z="rA7cxYx/8SQYWMCyIo9OJryCfK4="/>
+            <menu:item id="fi_reviewing_item" messageCode="global_menu_find" url="/reviewings?find=ByItem&amp;form" z="J8/NAWVxgnRva6xme7O8kav29sM="/>
+            <menu:item id="fi_reviewing_user" messageCode="global_menu_find" url="/reviewings?find=ByUser&amp;form" z="XhYtJiPMTxWBeBgfDjNvdsJROqI="/>
+            <menu:item id="fi_reviewing_useranditem" messageCode="global_menu_find" url="/reviewings?find=ByUserAndItem&amp;form" z="SAeR56RkDtE6Ak8s/Lbly39VwVA="/>
+        </menu:category>
+        <menu:category id="c_tagging" z="4mJNq/LA3WtHrQWZuE8W+9DtNTY=">
+            <menu:item id="i_tagging_new" messageCode="global_menu_new" url="/taggings?form" z="hHnyB4TLpp1AzdN/WQlOsPYrTH8="/>
+            <menu:item id="i_tagging_list" messageCode="global_menu_list" url="/taggings?page=1&amp;size=${empty param.size ? 10 : param.size}" z="s8Z3XjXLE/EXHZDeMZWm+42nkjM="/>
+            <menu:item id="fi_tagging_item" messageCode="global_menu_find" url="/taggings?find=ByItem&amp;form" z="ZpK0T+Eaq59h7G76DSmaeAWoU5s="/>
+            <menu:item id="fi_tagging_tags" messageCode="global_menu_find" url="/taggings?find=ByTags&amp;form" z="41yiL85JCku19B8j+ZhbeGnjpv0="/>
+            <menu:item id="fi_tagging_user" messageCode="global_menu_find" url="/taggings?find=ByUser&amp;form" z="KsJCuWiyoxFjAcxGpInFEUKDXAI="/>
+            <menu:item id="fi_tagging_useranditem" messageCode="global_menu_find" url="/taggings?find=ByUserAndItem&amp;form" z="7MFf1e5DQMiYGNivBlBmbTQjq+g="/>
+            <menu:item id="fi_tagging_index" url="/taggings/reindex" z="user-managed"/>
+        </menu:category>
+        <menu:category id="c_preference" z="MFvFDn5HOvaydzVEz42rofppTOc=">
+            <menu:item id="i_preference_new" messageCode="global_menu_new" url="/preferences?form" z="YwvUGPD6PxjV5RCarld/bDL+ZBc="/>
+            <menu:item id="i_preference_list" messageCode="global_menu_list" url="/preferences?page=1&amp;size=${empty param.size ? 10 : param.size}" z="YLzKyKSaDV9dlfxd+W4mSK9qEuQ="/>
+            <menu:item id="fi_preference_rating" messageCode="global_menu_find" url="/preferences?find=ByRating&amp;form" z="0DS7gojWtfP0iss8v+lUvVw2lLQ="/>
+        </menu:category>
+        <menu:category id="c_tag" z="zbrDBteXk3LlkQMQy3xXpSv2428=">
+            <menu:item id="i_tag_new" messageCode="global_menu_new" url="/tags?form" z="c2MR5d7dttBSgnPxMMH7oOEDl6Q="/>
+            <menu:item id="i_tag_list" messageCode="global_menu_list" url="/tags?page=1&amp;size=${empty param.size ? 10 : param.size}" z="HsTcxZ80PNENgslZ1+b/pv8MYug="/>
+            <menu:item id="fi_tag_tagging" messageCode="global_menu_find" url="/tags?find=ByTagging&amp;form" z="6XNW5TpYoH/EcDHd86KGsqqzdJI="/>
+            <menu:item id="fi_tag_valuelike" messageCode="global_menu_find" url="/tags?find=ByValueLike&amp;form" z="Swot5aj/fmrQJGp9TbutTUqUJBk="/>
+        </menu:category>
+        <menu:category id="c_recommendation" z="6W5jJmwBidK7Zg3pxlEKqy2NVmU=">
+            <menu:item id="i_recommendation_new" messageCode="global_menu_new" url="/recommendations?form" z="WSevHluVZLuYIdkY5qgqvj+cPa4="/>
+            <menu:item id="i_recommendation_list" messageCode="global_menu_list" url="/recommendations?page=1&amp;size=${empty param.size ? 10 : param.size}" z="a+r54SBdHbdTEo6g19WBqXCl+ms="/>
+            <menu:item id="fi_recommendation_item" messageCode="global_menu_find" url="/recommendations?find=ByItem&amp;form" z="3XcxAo2zM01zHtptTDSMtKhcyl4="/>
+            <menu:item id="fi_recommendation_user" messageCode="global_menu_find" url="/recommendations?find=ByUser&amp;form" z="RV4qiHPM09QY/5BLJaIomd6+oRI="/>
+        </menu:category>
+    </menu:menu>
+</div>
